@@ -5,11 +5,30 @@
     <link rel="stylesheet" href="background.css">
     <title>MagicTeam Site!</title>
     <style>
-      h1 {
+      p1 {
        text-align: center;
        font-family: verdana;
+       font-size: 2vw;
+      }
+      
+      p2 {
+       text-align: center;
+       font-family: verdana;
+       font-size: 2vw;
+      }
+      
+      p3 {
+       text-align: right;
+       font-family: verdana;
+       font-size: 3vw;
+      }
+      
+       h1 {
+       text-align: center;
+       font-family: 'Times New Roman', serif;
        font-size: 5vw;
       }
+      
       p {text-align: center;}
       body { 
         background-image: url('Webpagebackground.png');
@@ -19,23 +38,60 @@
         height: 3000px;
         
       }
-      div.head1 {
+      div.pg1 {
         position: relative;
         left: 20px;
-        bottom: -60px;
+        bottom: -3000px;
       }
+      
       div.video {
         position: relative;
         left: 20px;
         right: 0;
+        bottom: -300px;
+      }
+      
+      div.head1 {
+       	position: relative;
+        left: 20px;
+        right: 0;
         bottom: -70px;
       }
+      
+      div.pg2 {
+       	position: relative;
+        left: 20px;
+        right: 0;
+        bottom: -70px;
+      }
+      
+      div.pg3 {
+       	position: relative;
+        left: 305px;
+        right: 0px;
+        bottom: -270px;
+      }
+      
     </style>
   </head>
   <body>
-    <div class="head1">
-    <h1>Welcome to test Version 1.26</h1>
+  
+  	<div class="head1">
+    <h1>Welcome To Hawk News Site</h1>
     </div>
+    
+    <div class="pg2">
+    <p2>A site about every fun event that goes around Silverado</p2>
+    </div>
+    
+    <div class="pg3">
+    <p3><b>Latest Video</b></p3>
+    </div>
+    
+    <div class="pg1">
+    <p1>alpha 1.0.0</p1>
+    </div>
+    
     <div class="video">
     <p><iframe
   src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UUBmoHi4fYUP_6w8ebxA584w"
@@ -43,6 +99,7 @@
   height="<multiple of 9>vh"
   allowfullscreen>
 </iframe> </p>
+
     </div>
   </body>
 </html>
